@@ -65,7 +65,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 630px) {
   .outerContact .innerContact .gridBlock {
     display: grid;
     grid-template-areas:
@@ -74,7 +74,7 @@
       "three1"
       "four1"
       "five1";
-    grid-template-rows: 0.12fr 0.3fr 0.5fr 0.28fr 1fr;
+    grid-template-rows: 0.12fr 0.3fr 0.4fr 0.28fr 1fr;
     grid-template-columns: minmax(auto, 19em);
     justify-content: center;
   }
@@ -84,23 +84,27 @@
   }
 
   .outerContact .innerContact .cardContact img {
-    width: 3.2em;
+    width: 3em;
   }
   .outerContact .innerContact .cardContact h5 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bolder;
   }
   .outerContact .innerContact .cardContact p {
-    font-size: 0.75em;
+    font-size: 0.65em;
   }
   .outerContact .innerContact .cardContact {
-    width: 9.4em;
+    width: 9em;
   }
   .outerContact .innerContact .guideText h1 {
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
-
+  .outerContact .innerContact .cardContact a {
+    font-size: 0.7em;
+    width: fit-content;
+    height: fit-content;
+  }
   .outerContact .innerContact .gridBlock .guideText1 {
     grid-area: one1;
   }

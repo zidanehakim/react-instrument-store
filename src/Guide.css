@@ -89,8 +89,8 @@
       "ten eleven twelve"
       "thirteen fourteen fifteen"
       "sixteen sixteen sixteen";
-    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 9em)) minmax(auto, 9em);
-    grid-template-columns: 7.25em 4.5em 7.25em;
+    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 8em)) minmax(auto, 8em);
+    grid-template-columns: 6.9em 5em 6.9em;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -141,29 +141,29 @@
   }
 
   .outerSection .innerSection .guideText h1 {
-    font-weight: bolder;
-    font-size: 1.5em;
+    font-weight: bold;
+    font-size: 1.3em;
   }
   .outerSection .innerSection .guideChart .arrow {
     width: 3em;
   }
   .outerSection .guideChart .locate .locateText h1 {
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: bold;
   }
   .outerSection .guideChart .locate .locateText h4 {
-    font-size: 0.77em;
+    font-size: 0.6em;
   }
   .outerSection .circle {
-    width: 3.7em;
-    height: 3.7em;
+    width: 3.5em;
+    height: 3.5em;
   }
   .outerSection .shopNow {
-    width: 8.5em;
-    height: 3.3em;
+    width: 8em;
+    height: 3em;
   }
   .outerSection .shopNow h4 {
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: bold;
     text-transform: uppercase;
   }

@@ -44,7 +44,7 @@ function About() {
             </div>
             <div className="mission4">
               <MusicalNotes width="2.3em" height="2.3em" />
-              <h2>Innovative technology</h2>
+              <h2>Innovative techs</h2>
             </div>
           </div>
         </div>
