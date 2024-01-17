@@ -178,7 +178,7 @@
       "three1 three1 two1"
       "four1 four1 four1"
       "five1 five1 five1";
-    grid-template-rows: minmax(auto, 8em) minmax(auto, 16em) minmax(auto, 9em) minmax(auto, 45em);
+    grid-template-rows: minmax(auto, 8em) minmax(auto, 17em) minmax(auto, 9em) minmax(auto, 45em);
     grid-template-columns: 13em 13em 32em;
     justify-content: center;
   }

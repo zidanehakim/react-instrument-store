@@ -48,7 +48,7 @@ function Navtop(props) {
 
   // Always use useEffect when dealing with window event, don't forget to remove the event right away once we add to avoid memory overflowing
   useEffect(() => {
-    if (path === "/") {
+    if (path === "/react-instrument-store") {
       setDivStyle({ position: "sticky", top: "0", backgroundColor: "transparent", boxShadow: `0 0 0 .2px ${props.colorDark}` });
       windowDimensions.width >= 992 ? setColor({ color: props.colorBright }) : setColor({ color: props.colorDark });
       windowDimensions.width >= 992 ? setCcolor(props.colorBright) : setCcolor(props.colorDark);

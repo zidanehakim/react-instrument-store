@@ -39,14 +39,14 @@
 
 .outerProducts .innerProducts .gridProducts .productsGallery .productsImg {
   width: 4em;
-  height: 10em;
+  height: 9.5em;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .outerProducts .innerProducts .gridProducts .productsGallery .productsCategory {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: gray;
 }
 
@@ -66,13 +66,12 @@
   font-weight: bold;
   font-size: 1em;
   color: rgb(37, 21, 4);
-  margin-bottom: 1em;
+  margin-bottom: 0.8em;
 }
 
 .outerProducts .innerProducts .gridProducts .productsGallery .productsBtn {
   display: grid;
   grid-template-areas: "one3 two3";
-  grid-template-columns: minmax(auto, 5em);
   grid-template-columns: minmax(auto, 3em) minmax(auto, 3em);
   justify-content: start;
   align-items: start;
@@ -80,7 +79,7 @@
 
 .outerProducts .innerProducts .gridProducts .productsGallery .productsBtn a {
   width: 2.7em;
-  height: 1.9em;
+  height: 1.8em;
   background-color: rgb(37, 134, 66);
   color: white;
 }

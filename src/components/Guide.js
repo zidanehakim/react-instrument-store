@@ -39,7 +39,7 @@ function Guide() {
               <Cart color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
-              <h1>Masukkan ke dalam keranjang</h1>
+              <h1>Tambah keranjang</h1>
               <h4>Atau beli langsung</h4>
             </div>
           </div>
@@ -50,7 +50,7 @@ function Guide() {
             </div>
             <div class="locateText">
               <h1>Checkout</h1>
-              <h4>Pastikanarga dan barang sudah sesuai</h4>
+              <h4>Pastikan harga dan barang sesuai</h4>
             </div>
           </div>
           <img className="m-auto arrow arrow4" src={arrowright} alt="a"></img>
@@ -59,7 +59,7 @@ function Guide() {
               <LogoWhatsapp color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
-              <h1>Diarahkan ke Whatsapp</h1>
+              <h1>Menuju Whatsapp</h1>
               <h4>Berikan alamat tujuan pengiriman</h4>
             </div>
           </div>

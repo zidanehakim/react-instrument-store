@@ -37,7 +37,7 @@
   border: none !important;
 }
 
-.navbar .navUl .collapsed:hover {
+.navbar .navUl .collapsed:hover span {
   filter: invert(0.5);
 }
 
