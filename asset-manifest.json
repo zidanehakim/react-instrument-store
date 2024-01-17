@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-instrument-store/static/css/main.eeafb668.css",
-    "main.js": "/react-instrument-store/static/js/main.1891367f.js",
+    "main.js": "/react-instrument-store/static/js/main.bc96c447.js",
     "static/js/787.b33452da.chunk.js": "/react-instrument-store/static/js/787.b33452da.chunk.js",
     "static/media/bg.jpg": "/react-instrument-store/static/media/bg.b43475f12b96e7c1425c.jpg",
     "static/media/hero.jpg": "/react-instrument-store/static/media/hero.60872ed1a82ee0cdcc41.jpg",
@@ -14,11 +14,11 @@
     "static/media/flow.jpg": "/react-instrument-store/static/media/flow.a1838553c490989cc74b.jpg",
     "index.html": "/react-instrument-store/index.html",
     "main.eeafb668.css.map": "/react-instrument-store/static/css/main.eeafb668.css.map",
-    "main.1891367f.js.map": "/react-instrument-store/static/js/main.1891367f.js.map",
+    "main.bc96c447.js.map": "/react-instrument-store/static/js/main.bc96c447.js.map",
     "787.b33452da.chunk.js.map": "/react-instrument-store/static/js/787.b33452da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eeafb668.css",
-    "static/js/main.1891367f.js"
+    "static/js/main.bc96c447.js"
   ]
 }
