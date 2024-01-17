@@ -16,7 +16,7 @@ function Guide() {
           </div>
           <div class="locate locate1">
             <div class="circle m-auto">
-              <Planet width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <Planet color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Browse website</h1>
@@ -26,7 +26,7 @@ function Guide() {
           <img className="m-auto arrow arrow1" src={arrowright} alt="a"></img>
           <div class="locate locate2">
             <div class="circle m-auto">
-              <MusicalNotes width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <MusicalNotes color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Pilih alat musik</h1>
@@ -36,7 +36,7 @@ function Guide() {
           <img className="m-auto arrow arrow2" src={arrowright} alt="a"></img>
           <div class="locate locate3">
             <div class="circle m-auto">
-              <Cart width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <Cart color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Masukkan ke dalam keranjang</h1>
@@ -46,17 +46,17 @@ function Guide() {
           <img className="m-auto arrow arrow3" src={arrowright} alt="a"></img>
           <div class="locate locate4">
             <div class="circle m-auto">
-              <LogOut width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <LogOut color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Checkout</h1>
-              <h4>Pastikan harga dan barang sudah sesuai</h4>
+              <h4>Pastikanarga dan barang sudah sesuai</h4>
             </div>
           </div>
           <img className="m-auto arrow arrow4" src={arrowright} alt="a"></img>
           <div class="locate locate5">
             <div class="circle m-auto">
-              <LogoWhatsapp width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <LogoWhatsapp color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Diarahkan ke Whatsapp</h1>
@@ -66,14 +66,14 @@ function Guide() {
           <img className="m-auto arrow arrow5" src={arrowright} alt="a"></img>
           <div class="locate locate6">
             <div class="circle m-auto">
-              <CheckmarkCircle width="2.5em" height="2.5em" color="White" className="m-auto" />
+              <CheckmarkCircle h color="White" className="m-auto icon" />
             </div>
             <div class="locateText">
               <h1>Selesai</h1>
               <h4>Tunggu paket sampai ke alamat tujuan</h4>
             </div>
           </div>
-          <Link className="shopNow" to="/Products">
+          <Link className="shopNow" to="/react-instrument-store/Products">
             <h4 className="m-auto">Shop Now!</h4>
           </Link>
         </div>

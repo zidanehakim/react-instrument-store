@@ -139,8 +139,8 @@
       "three2"
       "four2"
       "five2";
-    grid-template-rows: minmax(auto, 9em) repeat(4, minmax(auto, 5em));
-    grid-template-columns: 20em;
+    grid-template-rows: minmax(auto, 8em) repeat(4, minmax(auto, 4em));
+    grid-template-columns: 14em;
     justify-items: center;
     justify-content: center;
     align-items: start;
@@ -168,6 +168,33 @@
   .outerAbout2 .innerAbout .gridAbout .mission4 {
     grid-area: five2;
     justify-self: start;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md1 {
+    width: 4em;
+    left: -1em;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md2 {
+    width: 3em;
+    bottom: -16em;
+    right: -10em;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
+    font-weight: bold;
+    font-size: 1.7em;
+    position: absolute;
+    left: 2.5em;
+  }
+  .outerAbout2 .innerAbout .gridAbout h2 {
+    letter-spacing: -2px;
+    font-size: 1em;
+    color: rgb(37, 21, 4);
+    align-self: start;
+    padding-left: 0.7em;
+    font-family: "DM Sans";
+    z-index: 10;
+    font-weight: bolder;
+    text-transform: uppercase;
   }
 }
 

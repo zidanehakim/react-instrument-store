@@ -240,7 +240,11 @@ ul {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 630px) {
   .wrapper .inner {
-    width: 23.5em;
+    width: 23em;
+  }
+
+  .wrapper button {
+    font-size: 1em;
   }
 }
 

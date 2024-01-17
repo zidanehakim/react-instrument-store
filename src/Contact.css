@@ -75,12 +75,26 @@
       "four1"
       "five1";
     grid-template-rows: 0.12fr 0.3fr 0.5fr 0.28fr 1fr;
-    grid-template-columns: minmax(auto, 20em);
+    grid-template-columns: minmax(auto, 18em);
     justify-content: center;
   }
 
+  .outerContact .innerContact .cardContact img {
+    width: 3.2em;
+  }
+  .outerContact .innerContact .cardContact h5 {
+    font-size: 1.1em;
+    font-weight: bolder;
+  }
+  .outerContact .innerContact .cardContact p {
+    font-size: 0.75em;
+  }
   .outerContact .innerContact .cardContact {
-    width: 10em;
+    width: 9.5em;
+  }
+  .outerContact .innerContact .guideText h1 {
+    font-weight: bolder;
+    font-size: 1.4em;
   }
 
   .outerContact .innerContact .gridBlock .guideText1 {

@@ -77,7 +77,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 600px) {
   .outerSection .innerSection .guideChart {
     padding-top: 2em;
     display: grid;
@@ -89,8 +89,8 @@
       "ten eleven twelve"
       "thirteen fourteen fifteen"
       "sixteen sixteen sixteen";
-    grid-template-rows: minmax(auto, 13em) repeat(5, minmax(auto, 9.5em)) minmax(auto, 10em);
-    grid-template-columns: 9em 3em 9em;
+    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 6em)) minmax(auto, 9em);
+    grid-template-columns: 7.5em 3em 7.5em;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -143,10 +143,38 @@
   .outerSection .innerSection .guideChart .shopNow {
     grid-area: sixteen;
   }
+
+  .outerSection .innerSection .guideText h1 {
+    font-weight: bolder;
+    font-size: 1.4em;
+  }
+  .outerSection .innerSection .guideChart .arrow {
+    width: 2.5em;
+  }
+  .outerSection .guideChart .locate .locateText h1 {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .outerSection .guideChart .locate .locateText h4 {
+    font-size: 0.6em;
+  }
+  .outerSection .circle {
+    width: 3em;
+    height: 3em;
+  }
+  .outerSection .shopNow {
+    width: 7em;
+    height: 3em;
+  }
+  .outerSection .shopNow h4 {
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 630px) {
+@media only screen and (min-width: 600px) {
   .outerSection .innerSection .guideChart {
     padding-top: 2em;
     display: grid;
