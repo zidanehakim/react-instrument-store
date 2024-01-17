@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outerSection {
+  position: block;
+  height: fit-content;
+  width: 100vw;
+  background-image: url("./img/triangles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(37, 21, 4);
+  font-family: "DM Sans";
+}
+
+.outerSection .innerSection {
+  height: 100%;
+  width: 54%;
+}
+
+.outerSection .innerSection .guideText {
+  justify-self: start;
+}
+
+.outerSection .innerSection .guideText h1 {
+  font-weight: bolder;
+  font-size: 1.9em;
+}
+
+.outerSection .circle {
+  display: flex;
+  border-radius: 50%;
+  background-color: rgb(37, 21, 4);
+  width: 5em;
+  height: 5em;
+}
+
+.outerSection .guideChart .locate {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+
+.outerSection .guideChart .locate .locateText {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.outerSection .guideChart .locate .locateText h1 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.outerSection .guideChart .locate .locateText h4 {
+  font-size: 0.9em;
+}
+
+.outerSection .shopNow {
+  align-self: end;
+  justify-self: center;
+  border-radius: 2em 2em 2em 2em;
+  display: flex;
+  width: 9em;
+  height: 3.5em;
+  background-color: rgb(37, 21, 4);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.outerSection .shopNow h4 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .outerSection .innerSection .guideChart {
+    padding-top: 2em;
+    display: grid;
+    grid-template-areas:
+      "text text text"
+      "one two three"
+      "four five six"
+      "seven eight nine"
+      "ten eleven twelve"
+      "thirteen fourteen fifteen"
+      "sixteen sixteen sixteen";
+    grid-template-rows: minmax(auto, 13em) repeat(5, minmax(auto, 9.5em)) minmax(auto, 10em);
+    grid-template-columns: 9em 3em 9em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outerSection .innerSection .guideChart .arrow {
+    width: 3.8em;
+  }
+
+  .outerSection .innerSection .guideChart .guideText {
+    grid-area: text;
+    justify-self: center;
+  }
+  .outerSection .innerSection .guideChart .locate1 {
+    grid-area: one;
+  }
+  .outerSection .innerSection .guideChart .arrow1 {
+    grid-area: two;
+  }
+  .outerSection .innerSection .guideChart .locate2 {
+    grid-area: three;
+  }
+  .outerSection .innerSection .guideChart .arrow2 {
+    grid-area: six;
+    transform: rotateZ(90deg);
+  }
+  .outerSection .innerSection .guideChart .locate3 {
+    grid-area: nine;
+  }
+  .outerSection .innerSection .guideChart .arrow3 {
+    grid-area: eight;
+    transform: rotateZ(180deg);
+  }
+  .outerSection .innerSection .guideChart .locate4 {
+    grid-area: seven;
+  }
+  .outerSection .innerSection .guideChart .arrow4 {
+    grid-area: ten;
+    transform: rotateZ(90deg);
+  }
+  .outerSection .innerSection .guideChart .locate5 {
+    grid-area: thirteen;
+  }
+  .outerSection .innerSection .guideChart .arrow5 {
+    grid-area: fourteen;
+  }
+  .outerSection .innerSection .guideChart .locate6 {
+    grid-area: fifteen;
+  }
+  .outerSection .innerSection .guideChart .shopNow {
+    grid-area: sixteen;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 630px) {
+  .outerSection .innerSection .guideChart {
+    padding-top: 2em;
+    display: grid;
+    grid-template-areas:
+      "text text text text text"
+      "one two three four five"
+      "six seven eight nine ten"
+      "eleven twelve thirteen fourteen fifteen"
+      "sixteen sixteen sixteen sixteen sixteen";
+    grid-template-rows: minmax(auto, 12em) repeat(3, minmax(auto, 11em)) minmax(auto, 9em);
+    grid-template-columns: 8em 6em 8em 6em 8em;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outerSection .innerSection .guideText {
+    justify-self: start;
+    width: 24em;
+  }
+
+  .outerSection .innerSection .guideChart .arrow {
+    width: 4em;
+  }
+
+  .outerSection .innerSection .guideChart .guideText {
+    grid-area: text;
+    justify-self: start;
+  }
+  .outerSection .innerSection .guideChart .locate1 {
+    grid-area: one;
+  }
+  .outerSection .innerSection .guideChart .arrow1 {
+    grid-area: two;
+  }
+  .outerSection .innerSection .guideChart .locate2 {
+    grid-area: three;
+  }
+  .outerSection .innerSection .guideChart .arrow2 {
+    grid-area: four;
+  }
+  .outerSection .innerSection .guideChart .locate3 {
+    grid-area: five;
+  }
+  .outerSection .innerSection .guideChart .arrow3 {
+    grid-area: ten;
+    transform: rotateZ(90deg);
+  }
+  .outerSection .innerSection .guideChart .locate4 {
+    grid-area: fifteen;
+  }
+  .outerSection .innerSection .guideChart .arrow4 {
+    grid-area: fourteen;
+  }
+  .outerSection .innerSection .guideChart .locate5 {
+    grid-area: thirteen;
+  }
+  .outerSection .innerSection .guideChart .arrow5 {
+    grid-area: twelve;
+  }
+  .outerSection .innerSection .guideChart .locate6 {
+    grid-area: eleven;
+  }
+  .outerSection .innerSection .guideChart .shopNow {
+    grid-area: sixteen;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .outerSection .innerSection .guideChart {
+    padding-top: 2em;
+    display: grid;
+    grid-template-areas:
+      "text text text text text"
+      "one two three four five"
+      "six seven eight nine ten"
+      "eleven twelve thirteen fourteen fifteen"
+      "sixteen sixteen sixteen sixteen sixteen";
+    grid-template-rows: minmax(auto, 12em) repeat(3, minmax(auto, 11em)) minmax(auto, 9em);
+    grid-template-columns: minmax(auto, 14.5em) minmax(auto, 7em) minmax(auto, 14.5em) minmax(auto, 7em) minmax(auto, 14.5em);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outerSection .innerSection .guideChart .guideText {
+    grid-area: text;
+    justify-self: start;
+  }
+  .outerSection .innerSection .guideChart .locate1 {
+    grid-area: one;
+  }
+  .outerSection .innerSection .guideChart .arrow1 {
+    grid-area: two;
+  }
+  .outerSection .innerSection .guideChart .locate2 {
+    grid-area: three;
+  }
+  .outerSection .innerSection .guideChart .arrow2 {
+    grid-area: four;
+  }
+  .outerSection .innerSection .guideChart .locate3 {
+    grid-area: five;
+  }
+  .outerSection .innerSection .guideChart .arrow3 {
+    grid-area: ten;
+    transform: rotateZ(90deg);
+  }
+  .outerSection .innerSection .guideChart .locate4 {
+    grid-area: fifteen;
+  }
+  .outerSection .innerSection .guideChart .arrow4 {
+    grid-area: fourteen;
+  }
+  .outerSection .innerSection .guideChart .locate5 {
+    grid-area: thirteen;
+  }
+  .outerSection .innerSection .guideChart .arrow5 {
+    grid-area: twelve;
+  }
+  .outerSection .innerSection .guideChart .locate6 {
+    grid-area: eleven;
+  }
+  .outerSection .innerSection .guideChart .shopNow {
+    grid-area: sixteen;
+  }
+}

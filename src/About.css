@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outerAbout {
+  position: block;
+  height: 103vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.outerAbout1 {
+  background-image: url("./img/bg.jpg");
+}
+
+.outerAbout2 {
+  background-image: url("./img/flow.jpg");
+  height: fit-content;
+}
+
+.outerAbout .innerAbout {
+  height: 100%;
+  width: 55%;
+}
+
+.outerAbout .blackMasks {
+  opacity: 0.6;
+  position: absolute;
+  background-color: black;
+  z-index: 9;
+  width: 100%;
+  height: 103vh;
+}
+
+.outerAbout1 .innerAbout .gridAbout .aboutImg {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  box-shadow: 0 0 1px rgb(255, 255, 255), -10px 10px 0px rgb(53, 52, 52), -20px 20px 0px rgba(48, 46, 46, 0.7), -30px 30px 0px rgba(46, 44, 44, 0.4), -40px 40px 0px rgba(44, 42, 42, 0.1);
+  opacity: 0.9;
+}
+
+.outerAbout1 .innerAbout .gridAbout .aboutText {
+  color: rgb(248, 243, 243);
+  align-self: end;
+  padding-left: 4.5em;
+  font-family: "DM Sans";
+  z-index: 10;
+}
+
+.outerAbout1 .innerAbout .gridAbout .aboutText h1 {
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.outerAbout1 .innerAbout .gridAbout .aboutText p {
+  padding-top: 1.5em;
+  font-size: 1em;
+}
+
+.outerAbout2 .innerAbout .gridAbout div * {
+  display: inline-block;
+}
+
+.outerAbout2 .innerAbout .gridAbout .aboutText {
+  position: relative;
+  color: rgb(37, 21, 4);
+  align-self: start;
+  padding-left: 4.5em;
+  font-family: "DM Sans";
+  z-index: 10;
+}
+
+.outerAbout2 .innerAbout .gridAbout .aboutText img {
+  position: absolute;
+}
+
+.outerAbout2 .innerAbout .gridAbout .aboutText .md1 {
+  width: 5.5em;
+  left: 0;
+}
+
+.outerAbout2 .innerAbout .gridAbout .aboutText .md2 {
+  width: 8em;
+  bottom: -16em;
+  right: -10em;
+}
+
+.outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
+  font-weight: bold;
+  font-size: 2.2em;
+  position: absolute;
+  left: 3.3em;
+}
+
+.outerAbout2 .innerAbout .gridAbout h2 {
+  letter-spacing: -2px;
+  font-size: 1.4em;
+  color: rgb(37, 21, 4);
+  align-self: start;
+  padding-left: 0.75em;
+  font-family: "DM Sans";
+  z-index: 10;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 630px) {
+  .outerAbout1 .innerAbout .gridAbout {
+    padding-top: 10em;
+    display: grid;
+    grid-template-areas: "two2";
+    grid-template-rows: 25em;
+    grid-template-columns: 23.2em;
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
+    align-content: center;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutImg {
+    display: none;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText {
+    grid-area: two2;
+    justify-self: start;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout {
+    padding-top: 7.5em;
+    padding-bottom: 3.5em;
+    display: grid;
+    grid-template-areas:
+      "one2"
+      "two2"
+      "three2"
+      "four2"
+      "five2";
+    grid-template-rows: minmax(auto, 9em) repeat(4, minmax(auto, 5em));
+    grid-template-columns: 20em;
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout .md2 {
+    display: none;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText {
+    grid-area: one2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission1 {
+    grid-area: two2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission2 {
+    grid-area: three2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission3 {
+    grid-area: four2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission4 {
+    grid-area: five2;
+    justify-self: start;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 630px) {
+  .outerAbout1 .innerAbout .gridAbout {
+    padding-top: 10em;
+    display: grid;
+    grid-template-areas: "two2";
+    grid-template-rows: 25em;
+    grid-template-columns: 25em;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutImg {
+    display: none;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText {
+    grid-area: two2;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout {
+    padding-top: 7.5em;
+    padding-bottom: 3.5em;
+    display: grid;
+    grid-template-areas:
+      "one2"
+      "two2"
+      "three2"
+      "four2"
+      "five2";
+    grid-template-rows: minmax(auto, 9em) repeat(4, minmax(auto, 5em));
+    grid-template-columns: 20em;
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout .md2 {
+    display: none;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText {
+    grid-area: one2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission1 {
+    grid-area: two2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission2 {
+    grid-area: three2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission3 {
+    grid-area: four2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission4 {
+    grid-area: five2;
+    justify-self: start;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .outerAbout1 .innerAbout .gridAbout {
+    padding-top: 10em;
+    display: grid;
+    grid-template-areas:
+      "one2 two2"
+      "one2 two2"
+      "one2 three2";
+    grid-template-rows: minmax(auto, 12em) minmax(auto, 12em) minmax(auto, 5em);
+    grid-template-columns: 20em 25em;
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutImg {
+    grid-area: one2;
+    display: block;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText {
+    grid-area: two2;
+  }
+
+  .outerAbout2 .innerAbout .gridAbout {
+    padding-top: 7.5em;
+    padding-bottom: 3.5em;
+    display: grid;
+    grid-template-areas:
+      "one2 two2"
+      "one2 three2"
+      "one2 four2"
+      "one2 five2";
+    grid-template-rows: repeat(4, minmax(auto, 5em));
+    grid-template-columns: 23em 22em;
+    justify-items: center;
+    justify-content: center;
+    align-items: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText {
+    grid-area: one2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission1 {
+    grid-area: two2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission2 {
+    grid-area: three2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission3 {
+    grid-area: four2;
+    justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .mission4 {
+    grid-area: five2;
+    justify-self: start;
+  }
+}

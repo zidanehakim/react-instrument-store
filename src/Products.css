@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outerProducts {
+  position: block;
+  height: 300vh;
+  width: 100vw;
+  font-family: "DM Sans";
+}
+
+.outerProducts .innerProducts {
+  height: 100%;
+  width: 65%;
+}
+
+.outerProducts .innerProducts .gridProducts {
+  padding-top: 10em;
+  display: grid;
+  grid-template-areas:
+    "one3 two3"
+    "three3 three3";
+  grid-template-rows: minmax(auto, 5em) minmax(auto, 20em);
+  grid-template-columns: minmax(auto, 40em) minmax(auto, 40em);
+  justify-items: center;
+  justify-content: center;
+  align-items: start;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 2em;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsImg {
+  width: 4em;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsCategory {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsTitle {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(37, 21, 4);
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsAvailable {
+  font-size: 0.85em;
+  color: green;
+  margin-left: 0.1em;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsPrice {
+  font-weight: bold;
+  font-size: 1em;
+  color: rgb(37, 21, 4);
+  margin-bottom: 1em;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsBtn {
+  display: grid;
+  grid-template-areas: "one3 two3";
+  grid-template-columns: minmax(auto, 5em);
+  grid-template-columns: minmax(auto, 3em) minmax(auto, 3em);
+  justify-content: start;
+  align-items: start;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsBtn a {
+  width: 2.7em;
+  height: 1.9em;
+  background-color: rgb(37, 134, 66);
+  color: white;
+}
+
+.outerProducts .innerProducts .gridProducts .productsGallery .productsBtn a * {
+  margin-bottom: 0.9em;
+}

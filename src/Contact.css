@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.outerContact {
+  padding-top: 5em;
+  position: block;
+  height: fit-content;
+  width: 100vw;
+  background-image: url("./img/triangles2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(37, 21, 4);
+  font-family: "DM Sans";
+}
+
+.outerContact .innerContact {
+  height: 100%;
+  width: 54%;
+  padding-top: 6em;
+}
+
+.outerContact .innerContact .gridBlock .contactGallery {
+  display: flex;
+}
+
+.outerContact .innerContact .cardContact {
+  width: 11em;
+  transition: box-shadow transform 0.1s ease-in;
+}
+
+.outerContact .innerContact .cardContact:hover {
+  box-shadow: 0 0 0px 1px rgb(228, 228, 228);
+  transform: scale(1.03);
+}
+
+.outerContact .innerContact .cardContact img {
+  width: 3.5em;
+}
+
+.outerContact .innerContact .cardContact h5 {
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.outerContact .innerContact .cardContact p {
+  font-size: 0.8em;
+}
+
+.outerContact .innerContact .gMap {
+  width: 100%;
+  height: 100%;
+  transition: box-shadow 0.1s ease-in;
+}
+
+.outerContact .innerContact .gMap:hover {
+  box-shadow: 0 0 0px 1px rgb(37, 21, 4);
+}
+
+.outerContact .innerContact .guideText h1 {
+  font-weight: bolder;
+  font-size: 1.9em;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .outerContact .innerContact .gridBlock {
+    display: grid;
+    grid-template-areas:
+      "one1"
+      "two1"
+      "three1"
+      "four1"
+      "five1";
+    grid-template-rows: 0.12fr 0.3fr 0.5fr 0.28fr 1fr;
+    grid-template-columns: minmax(auto, 20em);
+    justify-content: center;
+  }
+
+  .outerContact .innerContact .cardContact {
+    width: 10em;
+  }
+
+  .outerContact .innerContact .gridBlock .guideText1 {
+    grid-area: one1;
+  }
+  .outerContact .innerContact .gridBlock .gMap {
+    margin-top: 1em;
+    grid-area: three1;
+  }
+  .outerContact .innerContact .gridBlock .contactGallery {
+    grid-area: two1;
+    justify-self: center;
+    flex-direction: row;
+  }
+  .outerContact .innerContact .gridBlock .guideText2 {
+    grid-area: four1;
+    align-self: end;
+    margin-bottom: 2em;
+  }
+  .outerContact .innerContact .gridBlock .wrapper {
+    grid-area: five1;
+    justify-self: center;
+    align-self: end;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 630px) {
+  .outerContact .innerContact .gridBlock {
+    display: grid;
+    grid-template-areas:
+      "one1 one1"
+      "two1 three1"
+      "four1 four1"
+      "five1 five1";
+    grid-template-rows: 0.12fr 0.52fr 0.23fr 1fr;
+    grid-template-columns: 11.5em 25em;
+    justify-content: center;
+  }
+
+  .outerContact .innerContact .cardContact {
+    width: 10em;
+  }
+
+  .outerContact .innerContact .gridBlock .guideText1 {
+    grid-area: one1;
+  }
+  .outerContact .innerContact .gridBlock .gMap {
+    grid-area: three1;
+  }
+  .outerContact .innerContact .gridBlock .contactGallery {
+    grid-area: two1;
+    flex-direction: column;
+  }
+  .outerContact .innerContact .gridBlock .guideText2 {
+    grid-area: four1;
+    align-self: end;
+    margin-bottom: 2em;
+  }
+  .outerContact .innerContact .gridBlock .wrapper {
+    grid-area: five1;
+    justify-self: center;
+    align-self: end;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .outerContact .innerContact .gridBlock {
+    display: grid;
+    grid-template-areas:
+      "one1 one1 two1"
+      "three1 three1 two1"
+      "four1 four1 four1"
+      "five1 five1 five1";
+    grid-template-rows: minmax(auto, 8em) minmax(auto, 16em) minmax(auto, 9em) minmax(auto, 45em);
+    grid-template-columns: 13em 13em 32em;
+    justify-content: center;
+  }
+
+  .outerContact .innerContact .cardContact {
+    width: 11em;
+  }
+
+  .outerContact .innerContact .gridBlock .contactGallery {
+    flex-direction: row;
+  }
+
+  .outerContact .innerContact .gridBlock .guideText1 {
+    grid-area: one1;
+  }
+  .outerContact .innerContact .gridBlock .gMap {
+    grid-area: two1;
+  }
+  .outerContact .innerContact .gridBlock .contactGallery {
+    grid-area: three1;
+  }
+  .outerContact .innerContact .gridBlock .guideText2 {
+    grid-area: four1;
+    align-self: end;
+    margin-bottom: 2em;
+  }
+  .outerContact .innerContact .gridBlock .wrapper {
+    grid-area: five1;
+    justify-self: center;
+    align-self: start;
+  }
+}

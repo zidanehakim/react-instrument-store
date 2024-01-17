@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainbg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(./img/mainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: brightness(40%) blur(0.4px);
+}
+
+.categories .card {
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.8s ease;
+}
+
+.categories .card p {
+  transition: 0.8s ease;
+}
+
+.categories .card .card-img-top img {
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.categories .card:hover {
+  transform: scale(1.05);
+}
+
+.categories .card:hover p {
+  transform: rotatey(360deg);
+}
+
+.box1 {
+  background-color: rgb(205, 31, 31) !important;
+}
+
+.box2 {
+  background-color: rgb(202, 113, 29) !important;
+}
+
+.box3 {
+  background-color: rgb(19, 110, 17) !important;
+}
+
+.box4 {
+  background-color: rgb(12, 134, 167) !important;
+}
+
+.box5 {
+  background-color: rgb(185, 19, 185) !important;
+}
+
+.box6 {
+  background-color: rgb(195, 198, 23) !important;
+}
+
+.box7 {
+  background-color: yellow !important;
+}
+
+.box8 {
+  background-color: green !important;
+}
+
+.card-body p {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+}
+
+.scrollbar {
+  overflow: auto;
+  transition: visibility 0.2s;
+}
+
+.scrollbar:hover .scrollbar::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #f5f5f5;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: gray;
+  visibility: hidden;
+  transition: visibility 1s ease;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(0.5em);
+  }
+  to {
+    opacity: 1;
+  }
+}
