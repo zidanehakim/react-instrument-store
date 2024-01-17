@@ -33,13 +33,8 @@
   margin: auto;
 }
 
-.navbar .navUl .collapsed span {
-  width: 0.8em;
-  height: 1em;
-  filter: invert(1);
-}
 .navbar .navUl .collapsed {
-  background-color: rgb(37, 21, 4);
+  border: none !important;
 }
 
 .navbar .navUl .collapsed:hover {

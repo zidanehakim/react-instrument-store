@@ -46,7 +46,7 @@
 }
 
 .outerContact .innerContact .cardContact p {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 
 .outerContact .innerContact .gMap {
@@ -75,8 +75,12 @@
       "four1"
       "five1";
     grid-template-rows: 0.12fr 0.3fr 0.5fr 0.28fr 1fr;
-    grid-template-columns: minmax(auto, 18em);
+    grid-template-columns: minmax(auto, 19em);
     justify-content: center;
+  }
+
+  .outerContact {
+    padding-top: 4em;
   }
 
   .outerContact .innerContact .cardContact img {
@@ -90,11 +94,11 @@
     font-size: 0.75em;
   }
   .outerContact .innerContact .cardContact {
-    width: 9.5em;
+    width: 9.4em;
   }
   .outerContact .innerContact .guideText h1 {
     font-weight: bolder;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 
   .outerContact .innerContact .gridBlock .guideText1 {

@@ -18,11 +18,11 @@ function Navmain(props) {
         <Navbar key={expand} expand={expand} className="navbar navbar-expand-lg m-auto" style={props.divStyle}>
           <Container fluid className="navbar-nav m-auto my-1 navUl">
             <Navbar.Brand className="m-auto divSize mx-5">
-              <Link to="/">
+              <Link to="/react-instrument-store">
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Offcanvas</Offcanvas.Title>
@@ -51,9 +51,9 @@ function Navmain(props) {
                   <Search width="1em" height="1em" className="justify-center" color="white" />
                 </button>
 
-                <a href="#a" className="cart ms-4">
+                <a href="#a" className="cart ms-2">
                   <Cart color={props.ccolor} className="m-auto" width="1.3em" height="1.3em" />
-                  <p className="ms-2 m-auto" style={props.color}>
+                  <p className="ms-2 m-auto" style={{ color: props.ccolor }}>
                     {props.count}
                   </p>
                 </a>

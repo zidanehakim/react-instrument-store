@@ -33,7 +33,7 @@ function Navtop(props) {
     } else if (window.scrollY > 88 && window.scrollY < 150) {
       setDivStyle({ position: "fixed", top: "0", backgroundColor: "transparent" });
       windowDimensions.width >= 992 ? setColor({ color: props.colorBright }) : setColor({ color: props.colorDark });
-      windowDimensions.width >= 992 ? setCcolor(props.colorBright) : setCcolor(props.colorDark);
+      setCcolor(props.colorBright);
     } else windowDimensions.width >= 630 ? setDivStyle({ position: "sticky", top: "0", backgroundColor: "transparent" }) : setDivStyle({ position: "fixed", top: "0", backgroundColor: "transparent" });
   };
 
@@ -63,7 +63,7 @@ function Navtop(props) {
     function handleResize() {
       setWindowDimensions(getWindowDimensions());
     }
-    if (path === "/" || path === "/About") {
+    if (path === "/react-instrument-store" || path === "/react-instrument-store/About") {
       window.addEventListener("resize", handleResize);
       window.addEventListener("scroll", stickyNavHandlerHome);
       return () => {

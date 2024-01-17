@@ -89,15 +89,11 @@
       "ten eleven twelve"
       "thirteen fourteen fifteen"
       "sixteen sixteen sixteen";
-    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 6em)) minmax(auto, 9em);
-    grid-template-columns: 7.5em 3em 7.5em;
+    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 9em)) minmax(auto, 9em);
+    grid-template-columns: 7.25em 4.5em 7.25em;
     justify-items: center;
     justify-content: center;
     align-items: center;
-  }
-
-  .outerSection .innerSection .guideChart .arrow {
-    width: 3.8em;
   }
 
   .outerSection .innerSection .guideChart .guideText {
@@ -146,28 +142,28 @@
 
   .outerSection .innerSection .guideText h1 {
     font-weight: bolder;
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
   .outerSection .innerSection .guideChart .arrow {
-    width: 2.5em;
+    width: 3em;
   }
   .outerSection .guideChart .locate .locateText h1 {
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-weight: bold;
   }
   .outerSection .guideChart .locate .locateText h4 {
-    font-size: 0.6em;
+    font-size: 0.77em;
   }
   .outerSection .circle {
-    width: 3em;
-    height: 3em;
+    width: 3.7em;
+    height: 3.7em;
   }
   .outerSection .shopNow {
-    width: 7em;
-    height: 3em;
+    width: 8.5em;
+    height: 3.3em;
   }
   .outerSection .shopNow h4 {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: bold;
     text-transform: uppercase;
   }

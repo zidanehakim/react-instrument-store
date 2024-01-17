@@ -57,7 +57,7 @@ function Contact(props) {
             </div>
           </div>
           <div className="guideText guideText2">
-            <h1 className="text-center">atau email form dengan dibawah..</h1>
+            <h1 className="text-center">atau email dengan form dibawah..</h1>
           </div>
           <Form />
         </div>
