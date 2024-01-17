@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-instrument-store/static/css/main.694fe03a.css",
-    "main.js": "/react-instrument-store/static/js/main.8b55f893.js",
+    "main.css": "/react-instrument-store/static/css/main.1aacd013.css",
+    "main.js": "/react-instrument-store/static/js/main.4e339f38.js",
     "static/js/787.b33452da.chunk.js": "/react-instrument-store/static/js/787.b33452da.chunk.js",
     "static/media/bg.jpg": "/react-instrument-store/static/media/bg.b43475f12b96e7c1425c.jpg",
     "static/media/hero.jpg": "/react-instrument-store/static/media/hero.60872ed1a82ee0cdcc41.jpg",
     "static/media/aboutImg.jpg": "/react-instrument-store/static/media/aboutImg.0f6d62fe7fd61515462d.jpg",
     "static/media/guitar.jpg": "/react-instrument-store/static/media/guitar.858a91b22dab68753d1c.jpg",
-    "static/media/triangles2.png": "/react-instrument-store/static/media/triangles2.fcf33ab461525d565d41.png",
-    "static/media/triangles.png": "/react-instrument-store/static/media/triangles.0dc31bc69085a07baa9d.png",
+    "static/media/triangles2.png": "/react-instrument-store/static/media/triangles2.40293adf085aba22ebb5.png",
+    "static/media/triangles.png": "/react-instrument-store/static/media/triangles.e9e443b899873e35edeb.png",
     "static/media/logo-no-background.png": "/react-instrument-store/static/media/logo-no-background.8a5ac99997b8a393364b.png",
     "static/media/missionDecorate.png": "/react-instrument-store/static/media/missionDecorate.8c41d86308b7258e5406.png",
     "static/media/flow.jpg": "/react-instrument-store/static/media/flow.a1838553c490989cc74b.jpg",
     "index.html": "/react-instrument-store/index.html",
-    "main.694fe03a.css.map": "/react-instrument-store/static/css/main.694fe03a.css.map",
-    "main.8b55f893.js.map": "/react-instrument-store/static/js/main.8b55f893.js.map",
+    "main.1aacd013.css.map": "/react-instrument-store/static/css/main.1aacd013.css.map",
+    "main.4e339f38.js.map": "/react-instrument-store/static/js/main.4e339f38.js.map",
     "787.b33452da.chunk.js.map": "/react-instrument-store/static/js/787.b33452da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.694fe03a.css",
-    "static/js/main.8b55f893.js"
+    "static/css/main.1aacd013.css",
+    "static/js/main.4e339f38.js"
   ]
 }
