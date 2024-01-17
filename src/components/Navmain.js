@@ -29,16 +29,16 @@ function Navmain(props) {
               </Offcanvas.Header>
               <Offcanvas.Body className="m-auto" style={{ width: "fit-content" }}>
                 <Nav className="dropdown m-auto navLink">
-                  <Link to="/" style={props.color}>
+                  <Link to="/react-instrument-store" style={props.color}>
                     Home
                   </Link>
-                  <Link to="/About" style={props.color}>
+                  <Link to="/react-instrument-store/About" style={props.color}>
                     About
                   </Link>
-                  <Link to="/Contacts" style={props.color}>
+                  <Link to="/react-instrument-store/Contacts" style={props.color}>
                     Contacts
                   </Link>
-                  <Link to="/Products" style={props.color}>
+                  <Link to="/react-instrument-store/Products" style={props.color}>
                     Products
                   </Link>
                 </Nav>

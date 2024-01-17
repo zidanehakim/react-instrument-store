@@ -21,11 +21,11 @@ function App() {
     <div style={{ height: "fit-content", overflowX: "hidden" }}>
       <Navtop sentence={sentences} colorDark="rgb(37, 21, 4)" colorBright="white" />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Contacts" element={<Contact center={defaultProps.center} zoom={defaultProps.zoom} />} />
-        <Route path="/Products" element={<Products />} />
+        <Route path="/react-instrument-store/" element={<Home />} />
+        <Route path="/react-instrument-store/" element={<Home />} />
+        <Route path="/react-instrument-store/About" element={<About />} />
+        <Route path="/react-instrument-store/Contacts" element={<Contact center={defaultProps.center} zoom={defaultProps.zoom} />} />
+        <Route path="/react-instrument-store/Products" element={<Products />} />
       </Routes>
 
       <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
