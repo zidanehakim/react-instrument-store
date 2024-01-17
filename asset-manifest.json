@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a9c3a958.css",
+    "main.js": "/static/js/main.098f8379.js",
+    "static/js/787.b33452da.chunk.js": "/static/js/787.b33452da.chunk.js",
+    "static/media/bg.jpg": "/static/media/bg.b43475f12b96e7c1425c.jpg",
+    "static/media/hero.jpg": "/static/media/hero.60872ed1a82ee0cdcc41.jpg",
+    "static/media/aboutImg.jpg": "/static/media/aboutImg.0f6d62fe7fd61515462d.jpg",
+    "static/media/guitar.jpg": "/static/media/guitar.858a91b22dab68753d1c.jpg",
+    "static/media/triangles2.png": "/static/media/triangles2.fcf33ab461525d565d41.png",
+    "static/media/triangles.png": "/static/media/triangles.0dc31bc69085a07baa9d.png",
+    "static/media/logo-no-background.png": "/static/media/logo-no-background.8a5ac99997b8a393364b.png",
+    "static/media/missionDecorate.png": "/static/media/missionDecorate.8c41d86308b7258e5406.png",
+    "static/media/flow.jpg": "/static/media/flow.a1838553c490989cc74b.jpg",
+    "index.html": "/index.html",
+    "main.a9c3a958.css.map": "/static/css/main.a9c3a958.css.map",
+    "main.098f8379.js.map": "/static/js/main.098f8379.js.map",
+    "787.b33452da.chunk.js.map": "/static/js/787.b33452da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9c3a958.css",
+    "static/js/main.098f8379.js"
+  ]
+}
