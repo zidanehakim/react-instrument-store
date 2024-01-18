@@ -55,7 +55,7 @@ ul {
   margin: auto;
   background: rgb(0, 0, 0);
   border: 10px solid rgb(255, 255, 255);
-  padding: 2.8em 3.5em 2.8em;
+  padding: 2.8em 2.5em 2.8em;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -139,7 +139,7 @@ ul {
 .wrapper .inner .form-group textarea {
   background-color: rgb(255, 251, 247);
   color: rgb(37, 21, 4);
-  margin-top: 4.4em;
+  margin-top: 4em;
   height: 10em;
 }
 
@@ -170,7 +170,7 @@ ul {
   width: 140px;
   height: 45px;
   border: 2px solid #fff;
-  margin-top: 60px;
+  margin-top: 40px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -240,9 +240,17 @@ ul {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 630px) {
   .wrapper .inner {
-    width: 21em;
+    width: 22em;
   }
-
+  .wrapper h3 {
+    font-size: 1.3em;
+  }
+  .wrapper p {
+    font-size: 0.9em;
+  }
+  .wrapper span {
+    font-size: 0.8em !important;
+  }
   .wrapper button {
     font-size: 0.9em;
     width: 7em;

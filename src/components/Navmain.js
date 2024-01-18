@@ -6,10 +6,12 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
 
 import { Search, Cart } from "react-ionicons";
 
-import logo from "./../img/logo-no-background.png";
+import logo from "./../img/logo.png";
+import logoWhite from "./../img/logo-white.png";
 
 function Navmain(props) {
   return (
@@ -17,7 +19,7 @@ function Navmain(props) {
       {["false"].map((expand) => (
         <Navbar key={expand} expand={expand} className="navbar navbar-expand-lg m-auto" style={props.divStyle}>
           <Container fluid className="navbar-nav m-auto my-1 navUl">
-            <Navbar.Brand className="m-auto divSize mx-5">
+            <Navbar.Brand className="m-auto divSize mb-1">
               <Link to="/react-instrument-store">
                 <img className="logo" src={logo} alt="logo" />
               </Link>
@@ -44,20 +46,18 @@ function Navmain(props) {
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
-            <Form className="m-auto searchBar">
-              <form className="d-flex" role="search">
-                <input className="form-control m-auto" type="search" placeholder="Type to search..." aria-label="Search" />
-                <button className="btn m-auto" type="submit">
-                  <Search width="1em" height="1em" className="justify-center" color="white" />
-                </button>
+            <Form className="d-flex searchBar">
+              <Form.Control type="search" placeholder="Search" className="me-2 searchForm" aria-label="Search" style={{ border: `1px solid ${props.ccolor}` }} />
+              <Button variant="searchBtn" className="m-auto mt-1">
+                <Search color={props.ccolor} />
+              </Button>
 
-                <a href="#a" className="cart ms-2">
-                  <Cart color={props.ccolor} className="m-auto" width="1.3em" height="1.3em" />
-                  <p className="ms-2 m-auto" style={{ color: props.ccolor }}>
-                    {props.count}
-                  </p>
-                </a>
-              </form>
+              <a href="#a" className="cart ms-2">
+                <Cart color={props.ccolor} className="m-auto" width="1.3em" height="1.3em" />
+                <p className="ms-2 m-auto" style={{ color: props.ccolor }}>
+                  {props.count}
+                </p>
+              </a>
             </Form>
           </Container>
         </Navbar>

@@ -21,7 +21,6 @@
 
 .navbar .navUl .navbar-brand {
   max-width: fit-content !important;
-  margin: auto;
 }
 
 .navbar .navUl .offcanvas {
@@ -35,10 +34,6 @@
 
 .navbar .navUl .collapsed {
   border: none !important;
-}
-
-.navbar .navUl .collapsed:hover span {
-  filter: invert(0.5);
 }
 
 .logo {
@@ -90,10 +85,6 @@
   filter: invert(0.5);
 }
 
-.cart {
-  display: flex;
-}
-
 .searchBar {
   display: flex;
 }
@@ -110,9 +101,11 @@ form .btn * {
   bottom: 20%;
 }
 
-.searchBar form input {
-  border: 1px solid rgb(10, 10, 10) !important;
-  height: 2.5em;
+.searchBar .searchForm {
+  color: white !important;
+  height: 2.1em;
+  font-size: 0.9em;
+  background-color: transparent;
 }
 
 form .form-control:focus {
@@ -120,7 +113,8 @@ form .form-control:focus {
   box-shadow: none;
 }
 
-.searchBar form .cart {
+.searchBar .cart {
+  display: flex;
   text-decoration: none;
   color: rgb(37, 21, 4);
 }
@@ -138,7 +132,7 @@ form .form-control:focus {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 630px) {
   .navbar .navUl {
-    width: 21em !important;
+    width: fit-content !important;
   }
 }
 
@@ -152,6 +146,6 @@ form .form-control:focus {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .navbar .navUl {
-    width: 60em !important;
+    width: 50em !important;
   }
 }

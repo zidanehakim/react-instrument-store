@@ -31,19 +31,19 @@ function About() {
               <h1 className="text-start md3">OUR MISSION</h1>
             </div>
             <div className="mission1">
-              <MusicalNotes width="2.3em" height="2.3em" />
+              <MusicalNotes />
               <h2>Quality instrument</h2>
             </div>
             <div className="mission2">
-              <MusicalNotes width="2.3em" height="2.3em" />
+              <MusicalNotes />
               <h2>More Partnerships</h2>
             </div>
             <div className="mission3">
-              <MusicalNotes width="2.3em" height="2.3em" />
+              <MusicalNotes />
               <h2>Exceptional service</h2>
             </div>
             <div className="mission4">
-              <MusicalNotes width="2.3em" height="2.3em" />
+              <MusicalNotes />
               <h2>Innovative techs</h2>
             </div>
           </div>

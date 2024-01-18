@@ -8,10 +8,6 @@
   position: block;
   height: fit-content;
   width: 100vw;
-  background-image: url("./img/triangles2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: rgb(37, 21, 4);
   font-family: "DM Sans";
 }
@@ -29,6 +25,7 @@
 .outerContact .innerContact .cardContact {
   width: 11em;
   transition: box-shadow transform 0.1s ease-in;
+  background-color: whitesmoke;
 }
 
 .outerContact .innerContact .cardContact:hover {
@@ -74,7 +71,7 @@
       "three1"
       "four1"
       "five1";
-    grid-template-rows: 0.12fr 0.3fr 0.4fr 0.28fr 1fr;
+    grid-template-rows: 0.12fr 0.2fr 0.4fr 0.28fr 1fr;
     grid-template-columns: minmax(auto, 19em);
     justify-content: center;
   }
@@ -91,17 +88,17 @@
     font-weight: bolder;
   }
   .outerContact .innerContact .cardContact p {
-    font-size: 0.65em;
+    font-size: 0.8em;
   }
   .outerContact .innerContact .cardContact {
-    width: 9em;
+    width: 8.8em;
   }
   .outerContact .innerContact .guideText h1 {
     font-weight: bolder;
     font-size: 1.3em;
   }
   .outerContact .innerContact .cardContact a {
-    font-size: 0.7em;
+    font-size: 0.6em;
     width: fit-content;
     height: fit-content;
   }

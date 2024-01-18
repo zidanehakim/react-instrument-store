@@ -7,10 +7,7 @@
   position: block;
   height: fit-content;
   width: 100vw;
-  background-image: url("./img/triangles.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
   color: rgb(37, 21, 4);
   font-family: "DM Sans";
 }
@@ -89,8 +86,8 @@
       "ten eleven twelve"
       "thirteen fourteen fifteen"
       "sixteen sixteen sixteen";
-    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 8em)) minmax(auto, 8em);
-    grid-template-columns: 6.9em 5em 6.9em;
+    grid-template-rows: minmax(auto, 10em) repeat(5, minmax(auto, 8.5em)) minmax(auto, 8em);
+    grid-template-columns: 7.3em 5em 7.3em;
     justify-items: center;
     justify-content: center;
     align-items: center;
@@ -145,25 +142,25 @@
     font-size: 1.3em;
   }
   .outerSection .innerSection .guideChart .arrow {
-    width: 3em;
+    width: 3.5em;
   }
   .outerSection .guideChart .locate .locateText h1 {
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: bold;
   }
   .outerSection .guideChart .locate .locateText h4 {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
   .outerSection .circle {
     width: 3.5em;
     height: 3.5em;
   }
   .outerSection .shopNow {
-    width: 8em;
-    height: 3em;
+    width: 7em;
+    height: 2.8em;
   }
   .outerSection .shopNow h4 {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: bold;
     text-transform: uppercase;
   }
@@ -255,7 +252,7 @@
       "eleven twelve thirteen fourteen fifteen"
       "sixteen sixteen sixteen sixteen sixteen";
     grid-template-rows: minmax(auto, 12em) repeat(3, minmax(auto, 11em)) minmax(auto, 9em);
-    grid-template-columns: minmax(auto, 14.5em) minmax(auto, 7em) minmax(auto, 14.5em) minmax(auto, 7em) minmax(auto, 14.5em);
+    grid-template-columns: minmax(auto, 12em) minmax(auto, 7em) minmax(auto, 12em) minmax(auto, 7em) minmax(auto, 12em);
     justify-items: center;
     justify-content: center;
     align-items: center;

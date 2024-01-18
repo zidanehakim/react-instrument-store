@@ -17,17 +17,17 @@
 }
 
 .outerAbout2 {
-  background-image: url("./img/flow.jpg");
   height: fit-content;
 }
 
 .outerAbout .innerAbout {
+  display: flex;
   height: 100%;
-  width: 55%;
+  width: 70%;
 }
 
 .outerAbout .blackMasks {
-  opacity: 0.6;
+  opacity: 0.7;
   position: absolute;
   background-color: black;
   z-index: 9;
@@ -111,32 +111,34 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 630px) {
   .outerAbout1 .innerAbout .gridAbout {
-    padding-top: 8em;
     display: grid;
     grid-template-areas: "two2";
-    grid-template-rows: 25em;
-    grid-template-columns: 16em;
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     align-content: center;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText {
+    padding-left: 0em;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutImg {
     display: none;
   }
-  .outerAbout1 .innerAbout .gridAbout .aboutText {
-    grid-area: two2;
-    justify-self: start;
-    font-size: 0.9em;
+  .outerAbout1 .innerAbout .gridAbout .aboutText h1 {
+    font-size: 1.3em;
     font-weight: bold;
+    text-transform: uppercase;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutText p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    font-weight: 0;
   }
 
   .outerAbout2 .innerAbout .gridAbout {
-    padding-top: 6em;
-    padding-bottom: 4em;
+    margin: auto;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
     display: grid;
     grid-template-areas:
       "one2"
@@ -144,8 +146,8 @@
       "three2"
       "four2"
       "five2";
-    grid-template-rows: minmax(auto, 7em) repeat(4, minmax(auto, 4em));
-    grid-template-columns: 15em;
+    grid-template-rows: minmax(auto, 6em) repeat(4, minmax(auto, 3em));
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
     align-items: start;
@@ -174,10 +176,8 @@
     grid-area: five2;
     justify-self: start;
   }
-
   .outerAbout2 .innerAbout .gridAbout .aboutText .md1 {
-    width: 3.8em;
-    left: -1em;
+    width: 3em;
   }
   .outerAbout2 .innerAbout .gridAbout .aboutText .md2 {
     width: 3em;
@@ -186,45 +186,46 @@
   }
   .outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
     font-weight: bold;
-    font-size: 1.5em;
-    position: absolute;
-    left: 2.5em;
+    font-size: 1.3em;
+    justify-self: center;
   }
   .outerAbout2 .innerAbout .gridAbout h2 {
-    letter-spacing: 0.15px;
-    font-size: 0.95em;
-    color: rgb(37, 21, 4);
-    align-self: start;
-    padding-left: 0.9em;
-    font-family: "DM Sans";
-    z-index: 10;
-    font-weight: bolder;
-    text-transform: uppercase;
+    letter-spacing: -0.05px;
+    font-size: 1em;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 630px) {
   .outerAbout1 .innerAbout .gridAbout {
-    padding-top: 10em;
     display: grid;
     grid-template-areas: "two2";
-    grid-template-rows: 25em;
-    grid-template-columns: 25em;
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
+    align-items: center;
     align-content: center;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText {
+    padding-left: 0em;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutImg {
     display: none;
   }
-  .outerAbout1 .innerAbout .gridAbout .aboutText {
-    grid-area: two2;
+  .outerAbout1 .innerAbout .gridAbout .aboutText h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText p {
+    font-size: 0.8em;
+    font-weight: 0;
   }
 
   .outerAbout2 .innerAbout .gridAbout {
-    padding-top: 7.5em;
-    padding-bottom: 3.5em;
+    margin: auto;
+    padding-top: 3.5em;
+    padding-bottom: 2em;
     display: grid;
     grid-template-areas:
       "one2"
@@ -232,8 +233,8 @@
       "three2"
       "four2"
       "five2";
-    grid-template-rows: minmax(auto, 9em) repeat(4, minmax(auto, 5em));
-    grid-template-columns: 20em;
+    grid-template-rows: minmax(auto, 6em) repeat(4, minmax(auto, 3em));
+    grid-template-columns: 1fr;
     justify-items: center;
     justify-content: center;
     align-items: start;
@@ -262,12 +263,29 @@
     grid-area: five2;
     justify-self: start;
   }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md1 {
+    width: 3em;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md2 {
+    width: 3em;
+    bottom: -16em;
+    right: -10em;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
+    font-weight: bold;
+    font-size: 1.3em;
+    justify-self: center;
+  }
+  .outerAbout2 .innerAbout .gridAbout h2 {
+    letter-spacing: -0.05px;
+    font-size: 1em;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .outerAbout1 .innerAbout .gridAbout {
-    padding-top: 10em;
+    margin: auto;
     display: grid;
     grid-template-areas:
       "one2 two2"
@@ -284,11 +302,21 @@
     display: block;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutText {
+    padding-left: 4em;
     grid-area: two2;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .outerAbout1 .innerAbout .gridAbout .aboutText p {
+    font-size: 0.9em;
+    font-weight: 0;
   }
 
   .outerAbout2 .innerAbout .gridAbout {
-    padding-top: 7.5em;
+    padding-top: 5em;
     padding-bottom: 3.5em;
     display: grid;
     grid-template-areas:
@@ -296,8 +324,8 @@
       "one2 three2"
       "one2 four2"
       "one2 five2";
-    grid-template-rows: repeat(4, minmax(auto, 5em));
-    grid-template-columns: 23em 22em;
+    grid-template-rows: repeat(4, minmax(auto, 4em));
+    grid-template-columns: 16em 16em;
     justify-items: center;
     justify-content: center;
     align-items: start;
@@ -305,6 +333,20 @@
   .outerAbout2 .innerAbout .gridAbout .aboutText {
     grid-area: one2;
     justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md1 {
+    width: 4em;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md2 {
+    width: 4.5em;
+    bottom: -11em;
+    right: -6em;
+    display: block;
+  }
+  .outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
+    font-weight: bold;
+    font-size: 1.6em;
+    justify-self: center;
   }
   .outerAbout2 .innerAbout .gridAbout .mission1 {
     grid-area: two2;
@@ -321,5 +363,9 @@
   .outerAbout2 .innerAbout .gridAbout .mission4 {
     grid-area: five2;
     justify-self: start;
+  }
+  .outerAbout2 .innerAbout .gridAbout h2 {
+    letter-spacing: -1px;
+    font-size: 1.3em;
   }
 }

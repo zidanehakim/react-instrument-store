@@ -12,7 +12,7 @@ function Products() {
         <div className="innerProducts m-auto">
           <div className="gridProducts">
             <div className="productsGallery" style={{ gridArea: "three3" }}>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -29,7 +29,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -46,7 +46,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -63,7 +63,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -80,7 +80,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -97,7 +97,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -114,7 +114,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -131,7 +131,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -148,7 +148,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -165,7 +165,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -182,7 +182,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -199,7 +199,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -216,7 +216,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -233,7 +233,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -250,7 +250,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -267,7 +267,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -284,7 +284,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>
@@ -301,7 +301,7 @@ function Products() {
                   </div>
                 </div>
               </div>
-              <div class="card" style={{ width: "11em" }}>
+              <div class="card product">
                 <div class="card-img-top productsImg m-auto" style={{ backgroundImage: `url(${guitar})` }}></div>
                 <div class="card-body">
                   <p class="card-text productsCategory">Guitar Hero</p>

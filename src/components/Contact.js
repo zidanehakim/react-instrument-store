@@ -36,20 +36,20 @@ function Contact(props) {
           <div className="gMap">{isLoaded ? gmap : <div>Error loading maps</div>}</div>
           <div class="contactGallery">
             <div class="card cardContact text-center me-4">
-              <img class="card-img-top m-auto pt-4 pb-3" src={whatsapp} alt="Card cap" />
+              <img class="card-img-top m-auto pt-3 pb-1" src={whatsapp} alt="Card cap" />
               <div class="card-body">
                 <h5 class="card-title">Whatsapp</h5>
-                <p class="card-text mb-3">Contact our whatsapp +6285264104038</p>
+                <p class="card-text mb-3">Contact +6285264104038</p>
                 <a href="#a" class="btn btn-primary">
                   Chat now!
                 </a>
               </div>
             </div>
             <div class="card cardContact text-center">
-              <img class="card-img-top m-auto pt-4 pb-3" src={telephone} alt="Card cap" />
+              <img class="card-img-top m-auto pt-3 pb-1" src={telephone} alt="Card cap" />
               <div class="card-body">
-                <h5 class="card-title">Mobile Phone</h5>
-                <p class="card-text mb-3">Call us through phone 085264104038</p>
+                <h5 class="card-title">Phone</h5>
+                <p class="card-text mb-3">Call us 085264104038</p>
                 <a href="#a" class="btn btn-primary">
                   Call now!
                 </a>
