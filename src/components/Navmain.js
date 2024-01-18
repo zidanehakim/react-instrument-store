@@ -26,18 +26,18 @@ function Navmain(props) {
         <Navbar key={expand} expand={expand} className="navbar navbar-expand-lg m-auto" style={props.divStyle}>
           <Container fluid className="navbar-nav m-auto my-1 navUl">
             <Navbar.Brand className="m-auto divSize mb-1">
-              <Link to="/react-instrument-store">
+              <Link to="/react-instrument-store/">
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle onHide={handleClose} onClick={toggleMenu} style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas show={menuOpen} className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
+            <Navbar.Toggle onClick={toggleMenu} style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas onHide={handleClose} show={menuOpen} className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Transesa Music</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="m-auto" style={{ width: "fit-content" }}>
                 <Nav className="dropdown m-auto navLink">
-                  <Link to="/react-instrument-store" style={props.color} onClick={toggleMenu}>
+                  <Link to="/react-instrument-store/" style={props.color} onClick={toggleMenu}>
                     <p aria-label="Close">Home</p>
                   </Link>
                   <Link to="/react-instrument-store/About" style={props.color} onClick={toggleMenu}>
