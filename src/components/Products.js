@@ -21,10 +21,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -38,10 +38,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -55,10 +55,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -72,10 +72,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -89,10 +89,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -106,10 +106,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -123,10 +123,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -140,10 +140,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -157,10 +157,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -174,10 +174,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -191,10 +191,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -208,10 +208,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -225,10 +225,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -242,10 +242,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -259,10 +259,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -276,10 +276,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -293,10 +293,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>
@@ -310,10 +310,10 @@ function Products() {
                   <h5 class="card-text productsPrice">Rp 100.000</h5>
                   <div className="productsBtn">
                     <a href="#a" class="btn productsBuy" style={{ gridArea: "one3", justifySelf: "start" }}>
-                      <NavigateCircle color="white" width="1.15em" height="1.15em" />
+                      <NavigateCircle color="white" width="1em" height="1em" />
                     </a>
                     <a href="#a" class="btn productsCart" style={{ gridArea: "two3", justifySelf: "end" }}>
-                      <Cart color="white" width="1.15em" height="1.15em" />
+                      <Cart color="white" width="1em" height="1em" />
                     </a>
                   </div>
                 </div>

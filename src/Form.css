@@ -243,16 +243,16 @@ ul {
     width: 22em;
   }
   .wrapper h3 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   .wrapper p {
-    font-size: 0.9em;
+    font-size: 1em;
   }
   .wrapper span {
-    font-size: 0.8em !important;
+    font-size: 0.9em !important;
   }
   .wrapper button {
-    font-size: 0.9em;
+    font-size: 1em;
     width: 7em;
     height: 2.5em;
   }

@@ -31,7 +31,7 @@ function Navmain(props) {
               </Link>
             </Navbar.Brand>
             <Navbar.Toggle onClick={toggleMenu} style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas onHide={handleClose} show={menuOpen} className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
+            <Navbar.Offcanvas onHide={handleClose} show={props.width < 992 ? menuOpen : false} className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Transesa Music</Offcanvas.Title>
               </Offcanvas.Header>
@@ -53,7 +53,7 @@ function Navmain(props) {
               </Offcanvas.Body>
             </Navbar.Offcanvas>
             <Form className="d-flex searchBar">
-              <Form.Control type="search" placeholder="Search" className="me-2 searchForm" aria-label="Search" style={{ border: `1px solid ${props.ccolor}` }} />
+              <Form.Control type="search" placeholder="Search" className="me-2 searchForm" aria-label="Search" style={{ color: `${props.ccolor}`, border: `1px solid ${props.ccolor}` }} />
               <Button variant="searchBtn" className="m-auto mt-1">
                 <Search color={props.ccolor} />
               </Button>

@@ -129,7 +129,7 @@ function Navtop(props) {
           <></>
         )}
       </div>
-      <Navmain color={color} divStyle={divStyle} ccolor={ccolor} count={count} />
+      <Navmain color={color} divStyle={divStyle} ccolor={ccolor} count={count} width={windowDimensions.width} />
     </header>
   );
 }
