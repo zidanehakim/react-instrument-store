@@ -1,5 +1,5 @@
 import "./../Navmain.css";
-import { React } from "react";
+import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -11,9 +11,15 @@ import Button from "react-bootstrap/Button";
 import { Search, Cart } from "react-ionicons";
 
 import logo from "./../img/logo.png";
-import logoWhite from "./../img/logo-white.png";
 
 function Navmain(props) {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const handleClose = () => setMenuOpen(false);
+
   return (
     <div>
       {["false"].map((expand) => (
@@ -24,23 +30,23 @@ function Navmain(props) {
                 <img className="logo" src={logo} alt="logo" />
               </Link>
             </Navbar.Brand>
-            <Navbar.Toggle style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
+            <Navbar.Toggle onHide={handleClose} onClick={toggleMenu} style={{ color: props.ccolor }} aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas show={menuOpen} className="navbarOffcanvas" id={`offcanvasNavbar-expand-${expand}`} aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`} placement="start">
               <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Offcanvas</Offcanvas.Title>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>Transesa Music</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body className="m-auto" style={{ width: "fit-content" }}>
                 <Nav className="dropdown m-auto navLink">
-                  <Link to="/react-instrument-store" style={props.color}>
-                    Home
+                  <Link to="/react-instrument-store" style={props.color} onClick={toggleMenu}>
+                    <p aria-label="Close">Home</p>
                   </Link>
-                  <Link to="/react-instrument-store/About" style={props.color}>
+                  <Link to="/react-instrument-store/About" style={props.color} onClick={toggleMenu}>
                     About
                   </Link>
-                  <Link to="/react-instrument-store/Contacts" style={props.color}>
+                  <Link to="/react-instrument-store/Contacts" style={props.color} onClick={toggleMenu}>
                     Contacts
                   </Link>
-                  <Link to="/react-instrument-store/Products" style={props.color}>
+                  <Link to="/react-instrument-store/Products" style={props.color} onClick={toggleMenu}>
                     Products
                   </Link>
                 </Nav>

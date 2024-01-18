@@ -14,8 +14,8 @@ function ScrollToTop() {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    windowDimensions.width >= 630 ? window.scrollTo(0, 88) : window.scrollTo(0, 0);
-  }, [pathname]);
+    windowDimensions.width >= 630 ? (window.scrollY === 88 ? window.scrollTo(0, 88) : window.scrollTo(0, 89)) : window.scrollY === 0 ? window.scrollTo(0, 0) : window.scrollTo(0, 1);
+  }, [pathname, windowDimensions]);
 
   useEffect(() => {
     function handleResize() {

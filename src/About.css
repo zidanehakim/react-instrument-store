@@ -126,12 +126,12 @@
     display: none;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutText h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
   }
   .outerAbout1 .innerAbout .gridAbout .aboutText p {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 0;
   }
 
@@ -186,7 +186,7 @@
   }
   .outerAbout2 .innerAbout .gridAbout .aboutText .md3 {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.5em;
     justify-self: center;
   }
   .outerAbout2 .innerAbout .gridAbout h2 {

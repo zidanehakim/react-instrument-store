@@ -57,7 +57,7 @@ function Navtop(props) {
       setColor({ color: props.colorDark });
       setCcolor(props.colorDark);
     }
-  }, [path, props.colorDark, props.colorBright]);
+  }, [path, props.colorDark, props.colorBright, windowDimensions]);
 
   useEffect(() => {
     function handleResize() {

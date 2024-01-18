@@ -134,12 +134,18 @@ form .form-control:focus {
   .navbar .navUl {
     width: fit-content !important;
   }
+  .offcanvas {
+    --bs-offcanvas-width: 55vw !important;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 630px) {
   .navbar .navUl {
     width: 39em !important;
+  }
+  .offcanvas {
+    --bs-offcanvas-width: 400px !important;
   }
 }
 
