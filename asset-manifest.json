@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-instrument-store/static/css/main.d0db3ac6.css",
-    "main.js": "/react-instrument-store/static/js/main.4bb3180e.js",
+    "main.css": "/react-instrument-store/static/css/main.7915466a.css",
+    "main.js": "/react-instrument-store/static/js/main.c90b3bc2.js",
     "static/js/787.b33452da.chunk.js": "/react-instrument-store/static/js/787.b33452da.chunk.js",
     "static/media/bg.jpg": "/react-instrument-store/static/media/bg.b43475f12b96e7c1425c.jpg",
     "static/media/hero.jpg": "/react-instrument-store/static/media/hero.60872ed1a82ee0cdcc41.jpg",
@@ -10,12 +10,12 @@
     "static/media/logo.png": "/react-instrument-store/static/media/logo.8a5ac99997b8a393364b.png",
     "static/media/missionDecorate.png": "/react-instrument-store/static/media/missionDecorate.8c41d86308b7258e5406.png",
     "index.html": "/react-instrument-store/index.html",
-    "main.d0db3ac6.css.map": "/react-instrument-store/static/css/main.d0db3ac6.css.map",
-    "main.4bb3180e.js.map": "/react-instrument-store/static/js/main.4bb3180e.js.map",
+    "main.7915466a.css.map": "/react-instrument-store/static/css/main.7915466a.css.map",
+    "main.c90b3bc2.js.map": "/react-instrument-store/static/js/main.c90b3bc2.js.map",
     "787.b33452da.chunk.js.map": "/react-instrument-store/static/js/787.b33452da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0db3ac6.css",
-    "static/js/main.4bb3180e.js"
+    "static/css/main.7915466a.css",
+    "static/js/main.c90b3bc2.js"
   ]
 }
