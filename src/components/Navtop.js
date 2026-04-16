@@ -17,8 +17,6 @@ function getWindowDimensions() {
 function Navtop(props) {
   const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
-  // Cart count
-  const [count, setCount] = useState(0);
   const [divStyle, setDivStyle] = useState({ position: "sticky", top: "0", backgroundColor: "transparent" });
   const [color, setColor] = useState({ color: props.colorBright });
   const [ccolor, setCcolor] = useState(props.colorBright);
@@ -129,7 +127,7 @@ function Navtop(props) {
           <></>
         )}
       </div>
-      <Navmain color={color} divStyle={divStyle} ccolor={ccolor} count={count} width={windowDimensions.width} />
+      <Navmain color={color} divStyle={divStyle} ccolor={ccolor} count={props.cartCount || 0} openCart={props.openCart} width={windowDimensions.width} />
     </header>
   );
 }

@@ -58,11 +58,35 @@ function Navmain(props) {
                 <Search color={props.ccolor} />
               </Button>
 
-              <a href="#a" className="cart ms-2">
+              <a
+                href="#a"
+                className="cart ms-2"
+                onClick={(e) => { e.preventDefault(); if (props.openCart) props.openCart(); }}
+                style={{ position: "relative" }}
+              >
                 <Cart color={props.ccolor} className="m-auto" width="1.3em" height="1.3em" />
-                <p className="ms-2 m-auto" style={{ color: props.ccolor }}>
-                  {props.count}
-                </p>
+                {props.count > 0 && (
+                  <span
+                    style={{
+                      position: "absolute",
+                      top: "-0.4em",
+                      right: "-0.5em",
+                      background: "rgb(37, 134, 66)",
+                      color: "#fff",
+                      borderRadius: "99px",
+                      fontSize: "0.6em",
+                      fontWeight: "700",
+                      minWidth: "1.5em",
+                      height: "1.5em",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      lineHeight: 1,
+                    }}
+                  >
+                    {props.count}
+                  </span>
+                )}
               </a>
             </Form>
           </Container>
