@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react-instrument-store/static/css/main.7915466a.css",
-    "main.js": "/react-instrument-store/static/js/main.c90b3bc2.js",
+    "main.css": "/react-instrument-store/static/css/main.610ef23e.css",
+    "main.js": "/react-instrument-store/static/js/main.95daae79.js",
     "static/js/787.b33452da.chunk.js": "/react-instrument-store/static/js/787.b33452da.chunk.js",
     "static/media/bg.jpg": "/react-instrument-store/static/media/bg.b43475f12b96e7c1425c.jpg",
     "static/media/hero.jpg": "/react-instrument-store/static/media/hero.60872ed1a82ee0cdcc41.jpg",
     "static/media/aboutImg.jpg": "/react-instrument-store/static/media/aboutImg.0f6d62fe7fd61515462d.jpg",
-    "static/media/guitar.jpg": "/react-instrument-store/static/media/guitar.858a91b22dab68753d1c.jpg",
     "static/media/logo.png": "/react-instrument-store/static/media/logo.8a5ac99997b8a393364b.png",
     "static/media/missionDecorate.png": "/react-instrument-store/static/media/missionDecorate.8c41d86308b7258e5406.png",
     "index.html": "/react-instrument-store/index.html",
-    "main.7915466a.css.map": "/react-instrument-store/static/css/main.7915466a.css.map",
-    "main.c90b3bc2.js.map": "/react-instrument-store/static/js/main.c90b3bc2.js.map",
+    "main.610ef23e.css.map": "/react-instrument-store/static/css/main.610ef23e.css.map",
+    "main.95daae79.js.map": "/react-instrument-store/static/js/main.95daae79.js.map",
     "787.b33452da.chunk.js.map": "/react-instrument-store/static/js/787.b33452da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7915466a.css",
-    "static/js/main.c90b3bc2.js"
+    "static/css/main.610ef23e.css",
+    "static/js/main.95daae79.js"
   ]
 }
